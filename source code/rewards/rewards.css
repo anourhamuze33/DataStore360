@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(./assets/Orbitron-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Blender Pro';
+    src: url(assets/BLENDERPRO-BOLD.TTF) format('truetype')
+}
+
+* {
+    margin: 1;
+}
+
+h1 {
+    font-family: Orbitron;
+    color: white;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.body {
+    background-color: black;
+    background-image:
+        url(Rectangle\ 1\ copy\ 1.png);
+  height: 864px;
+  margin: 0px;
+}
+
+.header {
+    margin-left: 20px;
+    color: white;
+    margin-left: 70px;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.alphanum {
+    color: #FFEA31;
+    margin: 0;
+    font-family: Blender Pro;
+}
+
+.square {
+    height: 5px;
+    width: 5px;
+    background-color: #FFEA31;
+}
+
+.container {
+    background-image: url(Vector\ 47.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    width: 1500px;
+    height: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container img {
+    margin-top: 105px;
+}
+
+.hr1 {
+    width: 789px;
+    height: 5px;
+    display: flex;
+    background-color: #a09ec8;
+    border: #FFEA31;
+    margin-left: 235px;
+}
+
+.hr2 {
+    width: 80%;
+    height: 5px;
+    background-color: #FFEA31;
+    border: gray;
+}
+
+.loading {
+    margin-left: 242px;
+    font-family: Orbitron;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 27px;
+}
+
+.b40 {
+    font-size: 51px;
+
+}
+
+.load {
+    font-size: x-large;
+    letter-spacing: 4px;
+}
+
+.num {
+    font-size: 17px;
+    color: rgb(165, 159, 159);
+}
+
+.box1 {
+    display: flex;
+    font-family: Orbitron;
+    justify-content: space-between;
+    width: 770px;
+    margin-left: 276px;
+    margin-bottom: -55px;
+}
+
+.title2 {
+    font-family: Orbitron;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: -40px;
+    color: gray;
+}
+
+.part1 {
+    font-weight: 10;
+}
+
+.part2 {
+    font-weight: bold;
+    background-color: #FFEA31;
+    width: fit-content;
+    text-align: center;
+    color: white;
+}
+
+
+
+.char {
+    background-color: #FFEA31;
+    font-family: Orbitron;
+    width: 125px;
+    border-bottom-right-radius: 330%;
+    border-top-right-radius: 330%;
+    
+}
+
+.gun-text {
+    font-family: Orbitron;
+    color: white;
+
+    margin-top: -10px;
+}
+
+.comp-text {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.text {
+    color: white;
+    width: 777px;
+    font-family: Blender Pro;
+    margin-left: 270px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+
+.button {
+    background-color: #FFEA31;
+    font-family: Orbitron;
+    border-color: #FFEA31;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.all{
+    display: block;
+}
+.choosing{
+    margin: -205px 200px;
+    width: auto;
+}
+.rewards-boxes{
+    margin-left: 170px;
+    margin-top: -120px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 60px;
+
+}
+.reward-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.reward-item img {
+    padding: 40px;
+    width: 120px;
+    height: 120px;
+}
+.reward-item p {
+    color: white;
+    font-family: Orbitron;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.border{
+    border-style: dashed;
+}
+button{
+    width: 169px;
+    height: 29px;
+    margin-left: 560px;
+    margin-top: -900px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-style: outset;
+    border-color: gray;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px 20px;
+    
+}
+
+
+.popup-content img {
+    display: block;
+
+}
+button:hover{
+    box-shadow:  0 16px 16px 0 rgba(0, 0, 0, 0.6);
+    scale: 1.02;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+
+}
+.popup-content{
+    display: block;
+}
+.popup:target {
+    display: flex;
+
+}
+.out{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 230px;
+}

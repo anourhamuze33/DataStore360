@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(./assets/Orbitron-VariableFont_wght.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Blender Pro';
+    src: url(assets/BLENDERPRO-BOLD.TTF) format('truetype')
+}
+
+* {
+    margin: 1;
+}
+
+h1 {
+    font-family: Orbitron;
+    color: white;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.body {
+    background-color: black;
+    background-image:
+        url(Rectangle\ 1\ copy\ 1.png);
+    margin-left: 71px;
+}
+
+.header {
+    margin-left: 20px;
+    color: white;
+    margin-left: 70px;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.alphanum {
+    color: #537DD8;
+    margin: 0;
+    font-family: Blender Pro;
+}
+
+.square {
+    height: 5px;
+    width: 5px;
+    background-color: #537DD8;
+}
+
+.container {
+    background-image: url(Vector\ 47.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    width: 1500px;
+    height: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container img {
+    margin-top: 105px;
+}
+
+.hr1 {
+    width: 789px;
+    height: 5px;
+    display: flex;
+    background-color: #a09ec8;
+    border: #537DD8;
+    margin-left: 235px;
+}
+
+.hr2 {
+    width: 60%;
+    height: 5px;
+    background-color: #537DD8;
+    border: gray;
+}
+
+.loading {
+    margin-left: 242px;
+    font-family: Orbitron;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 27px;
+}
+
+.b40 {
+    font-size: 51px;
+
+}
+
+.load {
+    font-size: x-large;
+    letter-spacing: 4px;
+}
+
+.num {
+    font-size: 17px;
+    color: rgb(165, 159, 159);
+}
+
+.box1 {
+    display: flex;
+    font-family: Orbitron;
+    justify-content: space-between;
+    width: 770px;
+    margin-left: 240px;
+    margin-bottom: -55px;
+}
+
+.title2 {
+    font-family: Orbitron;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: -40px;
+    color: gray;
+}
+
+.part1 {
+    font-weight: 10;
+}
+
+.part2 {
+    font-weight: bold;
+    background-color: #537DD8;
+    width: 50px;
+    text-align: center;
+    color: white;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-color: azure;
+    cursor: pointer;
+    margin-top: 80px;
+
+}
+
+.arrows-and-card {
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+    margin-top: -40px;
+    gap: 40px;
+
+}
+
+.char {
+    background-color: #537DD8;
+    font-family: Orbitron;
+    width: 125px;
+    border-bottom-right-radius: 330%;
+    border-top-right-radius: 330%;
+    
+}
+
+.gun-text {
+    font-family: Orbitron;
+    color: white;
+    font-size: 48px;
+    margin-top: -10px;
+}
+
+.comp-text {
+    margin-left: 100px;
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+
+.text {
+    color: white;
+    width: 530px;
+    font-family: Blender Pro;
+    margin-top: -50px;
+}
+
+
+.button {
+    background-color: #537DD8;
+    font-family: Orbitron;
+    border-color: #537DD8;
+    font-size: 17px;
+    cursor: pointer;
+}
+.all{
+    display: block;
+}
+.choosing{
+    margin: -205px 200px;
+    width: auto;
+}
