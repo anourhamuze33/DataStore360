@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Libre+Barcode+EAN13+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Jolly Lodger", system-ui;
+    background-color: #0F041F;
+    background-image: url(./images/background/17609737378772\ 7.png);
+}
+#container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(7, 4, 23, 1);
+}
+
+#container>h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    -webkit-text-stroke: 2px navy;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Jolly Lodger", system-ui;
+    letter-spacing: 0.2rem;
+}
+
+
+#container>h1::before {
+    position: absolute;
+    color: #ff0000;
+}
+
+#container #links {
+    display: flex;
+    gap: 30px;
+    padding-right: 10%;
+}
+
+#container #links a {
+    text-decoration: none;
+    color: rgba(195, 191, 231, 1);
+    border: solid 1px;
+    padding: 4px;
+}
+
+#icon i {
+    color: #fff;
+    font-size: 50px;
+    display: none;
+}
+@media screen and (width <=600px) {
+    #container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #container #links {
+        display: none;
+    }
+
+    #icon i {
+        display: flex;
+    }
+
+}
+h1{
+    font-family: "Jolly Lodger", system-ui;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sections button{
+    display: inline-flex;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: aqua;
+}
+
+.valo{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    background: linear-gradient(53deg , red 50% , white 50%);
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.valo p{
+    font-size: 30px;
+    color: white;
+}
+.valo img{
+    border: 2px solid white;
+    border-radius: 25px;
+}
