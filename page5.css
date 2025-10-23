@@ -25,9 +25,11 @@ body{
     align-items: center;
     padding: 10px 20px;
     background-color: rgba(7, 4, 23, 1);
+    
 }
-#container>img{
-    width: 30%;
+#container>#logo{
+    width: 100px;
+    height: 100px;
 }
 
 
