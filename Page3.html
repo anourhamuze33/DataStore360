@@ -8,8 +8,9 @@
 </head>
 <body>
     <header>
-        <div class="Logo"> <img class="logo-img" src="GAME VERSE.png" alt=""></div>
-        <a href="menu.html"><button class="btn-selction">
+        <div class="Logo"> <img class="logo-img" src="logo.png" alt=""></div>
+        <a href="menu.html">
+        <button class="btn-selction">
             <div  class="ligne-1"></div>
             <div class="ligne-1"></div>
             <div class="ligne-1"></div>
@@ -21,12 +22,84 @@
     <nav>
         <h1>Rejoindre la Communauté GameVerse</h1>
     </nav>
-    <main class="container">
-        <div>
+    <main  class="inscription-txt"> 
+        <h2> Formulaire <br>d'inscription </h2>
+        <form >
+            <div>
+            <label for="Prenom">
+                Prenom
+            </label>
+            <input type="text" name="Prenom" id="Prenom" placeholder="Prenom">
+            </div>
 
-        </div>
-        
+            <div>
+            <label for="Nom">
+                Nom
+            </label>
+            <input type="text" name="Nom" id="Nom" placeholder="nom">
+            </div>
+            <div>
+            <label for="Email">
+                Email
+            </label>
+            <input type="email" name="Email" id="Email" placeholder="mail@mail.com">
+            </div>
+            <div>
+            <label for="age">
+                Âge
+            </label>
+            <input type="date" name="Date" id="age">
+            </div>
+            <div class="genre">
+            <label for="genre">
+                Genre préféré 
+            </label>
+            <select name="genre" id="genre">
+                <option value="">
+                    choice  genre
+                </option>
+                <option value="">
+                    FEMME
+                </option>
+                <option value="">
+                    HOMME
+                </option>
+            </div>
+            </select>
+            <button class="button-insc" type="submit"> <p>inscription</p> </button>
+        </form>
     </main>
-    
+    <section>
+        <h3>Version Gratuite et Premium</h3>
+    </section>
+    <section>
+        <article>
+            <h4>FREE</h4>
+            <div>
+                $0
+            </div>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet.
+                </li>
+            </ul>
+        </article>
+        <article>
+                            <h4>FREE</h4>
+            <div>
+                $0
+            </div>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet.
+                </li>
+            </ul>
+
+        </article>
+        <article>
+
+        </article>
+        
+    </section>
 </body>
 </html>

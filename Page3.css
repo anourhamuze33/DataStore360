@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Libre+Barcode+EAN13+Text&display=swap');
 
-body{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
     background: linear-gradient(135deg, #070417 0%, #0F041F 100%);
     background-repeat: no-repeat;
+
 }
 
 header{
@@ -28,8 +34,7 @@ justify-content: space-between;
 }
 
 .logo-img{
-    width: 120px;
-    height:30px;
+    width: 80px;
     margin-left: 5px;
 }
 
@@ -81,13 +86,84 @@ h1{
     
 }
 
-.container{
+.inscription-txt{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
     background-image: url(Rectangle\ 2.png);
-    width: 100%;
-    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 20px 0px;
+    background-size: cover;
+    border-radius: 12px;
 
 }
+
+.inscription-txt > h2{
+    text-align: center;
+    font-family: "Jolly Lodger", system-ui;
+    color: #B3CFFB;
+}
+
+form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+input , select{
+    width: 100px;
+    background-color: #B6AFAF;
+    opacity: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.genre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+        font-family: "Jolly Lodger", system-ui;
+        color: #7386C4;
+
+}
+
+.button-insc{
+        width: 120px;
+        margin: 15px 0px;
+        font-family: "Jolly Lodger", system-ui;
+        color: #7386C4;
+        width: 100px;
+        background-color: #B6AFAF;
+        opacity: 20%;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 5px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+    opacity: 50%;
+
+}
+
+.button-insc > p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 100%;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Jolly Lodger", system-ui;
+    color: #B3CFFB;
+}
+
+
+
