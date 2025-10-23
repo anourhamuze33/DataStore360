@@ -20,6 +20,14 @@ background: linear-gradient(
 font-weight: lighter;
 font-family: "Jolly Lodger", system-ui;
 color: #FFFFFF;
+text-align: center;
+
+}
+.head_second_classement{
+font-size: 5vh;
+font-family: "Jolly Lodger", system-ui;
+color: #FFFFFF;
+text-align: center;
 
 }
 .container{
@@ -254,6 +262,7 @@ display: flex;
 }
 .classement_elements{
     border: 2px solid rgba(255, 255, 255, 0.404);
+    border-radius: 1vh;
     width: 85vw;
     height: 160vh;
     display: flex;
@@ -279,7 +288,48 @@ border: 2px solid rgba(255, 255, 255, 0.404);
     #0F071C 0%,
     #22124C 100%
 );
+border-radius: 1vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
 }
+.classement_1{
+    width: 45vw;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 0.6vh solid #020002;
+border-radius: 2vh;
+}
+.classement_2{
+    width: 45vw;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 0.6vh solid #020002;
+border-radius: 2vh;
+}
+.classement_3{
+    width: 45vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 0.6vh solid #020002;
+border-radius: 2vh;
+}
+.classement_logo{
+    width: 45vw;
+}
+
+
+
+
+
 .section5{
     display: flex;
     flex-direction: column;
