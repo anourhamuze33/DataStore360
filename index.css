@@ -226,19 +226,25 @@ box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
     #08150A 43%,
     #070339 100%
 );
-border-radius: 3vh; 
+border-radius: 1vh; 
+justify-content: space-evenly;
 }
 .notes_elements{
 border: 2px solid rgba(255, 255, 255, 0.404);
+border-radius: 1vh;
+width: 85vw;
+font-family: "Jolly Lodger", system-ui;
+gap: 2vh;
+padding-left: 1vh;
+
+color: white;
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 }
 
 .section3{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .section4{
         display: flex;
