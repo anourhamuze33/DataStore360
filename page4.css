@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Libre+Barcode+EAN13+Text&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Jolly Lodger", system-ui;
+    background-image: url("backmg.jpg");
+    
+    
+}
+/* head style start */
+
+#container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(7, 4, 23, 1);
+}
+#container>h1{
+    font-size: 32px;
+    color: rgba(41, 16, 121, 1);
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+#container>h1::before{
+    content: "GAME VERSE";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    color: #fff;
+}
+
+#container #links{
+    display: flex;
+    gap: 30px;
+    padding-right: 10%;
+}
+#container #links a{
+    text-decoration: none;
+    color: rgba(195, 191, 231, 1);
+    border: solid 1px;
+    padding: 4px;
+}
+#icon i{
+    color: #fff;
+    font-size:30px;
+    display: none;
+}
+/* head style end */
+
+@media screen and (width <= 600px){
+    #container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #container #links{
+        display: none;
+    }
+    #icon i{
+        display: flex;
+    }
+
+}
+.containere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+   
+}
+.containere>h2{
+    width:100%;
+    text-align:center;
+    color:white;
+    margin-bottom: 4rem;
+    
+}
+.containere article{
+    position: relative;
+   width: 80%;
+   border: 2px solid white;
+   color: white;
+   border-radius: 5%;
+   height: 350px;
+   background: linear-gradient(rgba(32, 20, 162, 0.347),rgba(187, 23, 23, 0.265));
+   
+}
+article >h3{
+    
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+article>p{
+    margin: 5%;
+    text-align: center;
+}
+
+#date{
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left:30% ;
+    color: rgb(4, 251, 255);
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma,sans-serif;
+}
+.section2{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2>h2{
+width:100%;
+    text-align:center;
+    color:white;
+    margin-bottom: 4rem;
+}
+.Evenements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5rem;
+}
+.btn{
+  background-color: rgba(40, 40, 255, 0.144);
+  width: 100px;
+  height: 50px;
+  color: white;
+  border: none;
+}
+@media screen and (width >= 600px){
+    .containere {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+   
+}
+.containere >h2{
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin-bottom: 4rem;
+
+}
+
+}
+
