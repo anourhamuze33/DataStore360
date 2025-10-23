@@ -326,7 +326,18 @@ border-radius: 2vh;
     width: 45vw;
 }
 
-
+.temoignage_elements1{
+display: flex;
+flex-direction: column;
+position: relative;
+right: 6vh;
+}
+.temoignage_elements2{
+display: flex;
+flex-direction: column;
+position: absolute;
+right: 2vh;
+}
 
 
 
@@ -337,38 +348,74 @@ border-radius: 2vh;
     align-items: center;
     position: relative;
     top: 180vh;
+    gap: 3vh;
 }
 .tighnari{
     position: absolute;
     width: 65vw;
+    border-radius: 1vh;
 }
 .first_temoignage{
     position: relative;
+    left: 10vh;
+    top: 20vh;
     border: 2px solid rgba(255, 255, 255, 0.404);
     width: 65vw;
-    height: 40vh;
+    height: 30vh;
         background-image: linear-gradient(
-    to bottom,
-    #0F071C 0%,
-    #22124C 100%
+    to right,
+    #150809 43%,
+    #090441 100%
 );
 opacity: 0.9;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
+
 .second_temoignage{
     position: relative;
+    top: 90vh;
+    right: 10vh;
     border: 2px solid rgba(255, 255, 255, 0.404);
     width: 65vw;
-    height: 40vh;
+    height: 30vh;
         background-image: linear-gradient(
-    to bottom,
-    #0F071C 0%,
-    #22124C 100%
+    to right,
+    #150809 43%,
+    #090441 100%
 );
-top: 70vh;
 opacity: 0.9;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 .youho{
-       position: absolute;
+    position: absolute;
     width: 65vw; 
     top: 70vh;
+    border-radius: 1vh;
+}
+.first_temoignage_text{
+font-family: "Jolly Lodger", system-ui;
+color: white;
+text-align: center;
+width: 27vh;
+font-size:2.5vh;
+}
+.titles{
+font-family: "Jolly Lodger", system-ui;
+color: white;
+font-size: 160%;
+
+}
+.temoignage_titles{
+width: 65vw;
+height: 5vh;
+display: flex;
+justify-content: center;
+padding-left: 1vh;
+gap:20%;
 }
