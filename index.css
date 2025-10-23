@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+background: linear-gradient(
+    to bottom,
+    #070417 30%,
+    #0F041F 3000%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head_second{
+font-weight: lighter;
+font-family: "Jolly Lodger", system-ui;
+color: #FFFFFF;
+
+}
+.container{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 5%;
+
+}
+video{
+    max-width: 100vw;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+ul{
+    list-style: none;
+}
+.header_principal{
+    text-align: center;
+    font-family: "Jolly Lodger", system-ui;
+}
+.btn_principal{
+background-image: linear-gradient(
+    to right,
+    #13032F 0%,
+    #950A7B 100%
+);
+opacity: 0.5;
+border-radius: 8px;
+text-decoration: none;
+font-family: "Jolly Lodger", system-ui;
+font-size: 3vw;
+letter-spacing: 1px;
+padding: 0.4vh 0.5vw ;
+}
+
+span{
+    
+    border: 0vh solid #3f32323a;
+    border-radius: 8px;
+    background: #e3e3e33a;
+    color: #13063C;
+    padding: 0.1vh 4vw 
+}
+.nav_liste{
+    display: flex;
+    flex-direction: column;
+    gap: 400px;
+    
+
+}
+.btn_nav{
+    background: #020002;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:1vw;
+}
+.sectio1{
+
+    border-radius: 3vh;
+    width: 95vw;
+    height: 30vh;
+}
+.container_section1{
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+}
+.background{
+    width: 95vw;
+    height: 30vh;
+    border-radius: 20px;
+     opacity: 0.4;
+}
+.container1_element{
+    position: absolute;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+.sorties1{
+    width: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sorties1_2{
+    gap: 50px;
+}
+.sorties_info{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #130c5157;
+border-radius: 0.7vh;
+width: 20vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #660eb34e;
+}
+.sorties_info2{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #130c5157;
+border-radius: 0.7vh;
+width: 15vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #660eb34e;
+}
+.sorties_info3{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #130c5157;
+border-radius: 0.7vh;
+width: 13vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #660eb34e;
+}
+.sorties_elementes>.sorties_title{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #020002b7;
+border-radius: 0.7vh;
+width: 20vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
+}
+.sorties_elementes>.sorties_title2{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #020002b7;
+border-radius: 0.7vh;
+width: 15vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
+}
+.sorties_elementes>.sorties_title3{
+display: flex;
+justify-content: center;
+border: 2px solid #ffffff3a;
+background: #020002b7;
+border-radius: 0.7vh;
+width: 13vw;
+height: 3vh;
+color: rgba(255, 255, 255, 0.747);
+font-family: "Jolly Lodger", system-ui;
+box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
+}
+.genshin_icon{
+width: 20vw;
+height: 8.6vh;
+border-radius: 0.7vh;
+opacity: 0.85;
+box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
+}
+.game2_icon{
+    width: 20vw;
+height: 3.6vh;
+border-radius: 0.7vh;
+opacity: 0.85;
+box-shadow: 0.4vh 0.5vh 0.5vh #160eb367;
+}
+.sorties_elementes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+}
+.notes{
+    border: 1px solid rgb(255, 255, 255);
+    width: 95vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(
+    to right,
+    #08150A 43%,
+    #070339 100%
+);
+border-radius: 3vh; 
+}
+.notes_elements{
+border: 2px solid rgba(255, 255, 255, 0.404);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.section4{
+        display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.classement_elements{
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    width: 85vw;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 4vh;
+    background-image: linear-gradient(
+    to right,
+    #150809 30%,
+    #090441 100%
+);
+
+}
+.classement_info{
+border: 2px solid rgba(255, 255, 255, 0.404);
+    width: 65vw;
+    height: 40vh;
+        background-image: linear-gradient(
+    to bottom,
+    #0F071C 0%,
+    #22124C 100%
+);
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180vh;
+}
+.tighnari{
+    position: absolute;
+    width: 65vw;
+}
+.first_temoignage{
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    width: 65vw;
+    height: 40vh;
+        background-image: linear-gradient(
+    to bottom,
+    #0F071C 0%,
+    #22124C 100%
+);
+opacity: 0.9;
+}
+.second_temoignage{
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    width: 65vw;
+    height: 40vh;
+        background-image: linear-gradient(
+    to bottom,
+    #0F071C 0%,
+    #22124C 100%
+);
+top: 70vh;
+opacity: 0.9;
+}
+.youho{
+       position: absolute;
+    width: 65vw; 
+    top: 70vh;
+}
