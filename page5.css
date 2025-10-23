@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Jolly Lodger", system-ui; ;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5); /* transparency */
+    background-blend-mode: darken; /* or multiply, overlay, etc */
+}
+/* head style start */
+
+#container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(7, 4, 23, 1);
+}
+#container>img{
+    width: 30%;
+}
+
+
+#container #links{
+    display: flex;
+    gap: 30px;
+    padding-right: 10%;
+}
+#container #links a{
+    text-decoration: none;
+    color: rgba(195, 191, 231, 1);
+    border: solid 1px ;
+    padding: 4px;
+}
+#icon i{
+    color: #fff;
+    font-size:30px;
+    display: none;
+}
+/* head style end */
+
+/* timeline style start */
+#timeline-section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    position: relative;
+}
+#timeline-section #timeline-items{
+    margin-top: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+#timeline-section #timeline-items::before{
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 1px);
+}
+#timeline-section #timeline-items #timeline-item{
+    margin-bottom: 30px;  
+}
+#timeline-section #timeline-items #timeline-item #timeline-dot{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    position:absolute;
+    border-radius: 50%;
+    left: calc(50% - 8px );
+}
+#timeline-section #timeline-items #timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;   
+}
+#timeline-section #timeline-items #timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);   
+}
+/* timeline style end */
+
+@media screen and (width <= 600px){
+    #container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #container #links{
+        display: none;
+    }
+    #icon i{
+        display: flex;
+    }
+
+    /* timeline */
+    #timeline-section #timeline-items::before{
+        left: 7px;
+       
+    }
+    #timeline-section #timeline-items #timeline-item:nth-child(odd){
+    padding-right: 0;
+    text-align: left;   
+    }
+    #timeline-section #timeline-items #timeline-item:nth-child(odd),#timeline-section #timeline-items #timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    
+}
