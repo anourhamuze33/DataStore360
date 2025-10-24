@@ -415,6 +415,8 @@ label{
     height: 200px;
 }
 
+
+
 h3 {
     font-size: 40px;
 }
@@ -429,4 +431,39 @@ h3 {
         width: 240px;
     }
 
+    .btn-selction{
+  display: none;
+}
+
+.click-down{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+
+}
+.list{
+    background-color: transparent;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.list a{
+    font-family: "Jolly Lodger", system-ui;
+    color: #fffefe;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.modal-close{
+display: none;
+margin-top: 0px;
+
+}
 }
