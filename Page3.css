@@ -70,6 +70,71 @@ justify-content: space-between;
     height: 2px;
     background-color: white;
 }
+.click-down{
+    display: none;
+    flex-direction: row-reverse;
+    position:fixed;
+    inset :0;
+    z-index: 999;
+}
+.click-down:target{
+    display: flex;
+    
+    
+}
+.list{
+    background-color: #13103b;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.list a{
+    margin-top: 30px;
+    font-family: "Jolly Lodger", system-ui;
+    color: #fffefe;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.modal-close{
+    width: 70px;
+    height: 18px;
+    font-family: "Jolly Lodger", system-ui;
+    text-align: center;
+    border: 2px solid rgb(129, 129, 129);
+    background-color: #000000;
+    border-radius: 10%;
+
+
+}
+
+
+
+.cond-link{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    inset :0;
+    z-index: 999;
+}
+.cond-link:target{
+    display: flex;
+    
+    
+}
+.Condition-link{
+    background-color: #13103b;
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+}
+
 
 nav{
     display: flex;
@@ -178,6 +243,20 @@ h3{
     background-color: rgb(66, 4, 222);
 }
 
+.Condition-al{
+    margin-top: 5px;
+    
+}
+.Condition-al > input{
+    width: 10px;
+}
+
+.Condition{
+    font-family: "Jolly Lodger", system-ui;
+    color: #B3CFFB;
+
+}
+
 .abonnemet{
     display: flex;
     flex-direction: column;
@@ -240,6 +319,21 @@ li::marker{
     box-shadow: 0px 0px  20px 4px rgb(169, 169, 251);
 }
 
+footer #container {
+    width: 100%vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(195, 191, 231, 1);
+    padding: 0 40px;
+}
+
+footer #container #social-media {
+    display: flex;
+    gap: 10px;
+}
+
 @media only screen and (min-width: 600px){
    
 h1{
@@ -268,14 +362,14 @@ form {
 .nom-prenom{
     display: flex;
     flex-flow: row wrap;
-    gap: 160px;
+    gap: 110px;
 
 }
 
 .age-mail{
     display: flex;
     flex-direction: row;
-        gap: 160px;
+        gap: 120px;
 }
 
 input , select{
@@ -287,6 +381,14 @@ input , select{
 .button-insc{
         width: 200px;
         border-radius: 10px;
+}
+
+.button-insc:hover{
+        opacity: 80%;
+        background-color: #004036;
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
         box-shadow: 4px 4px  10px 2px rgb(169, 169, 251);
 }
 
@@ -294,5 +396,37 @@ label{
     font-size: 24px;
 }
 
+::placeholder{
+    font-size: 12px;
+}
+
+
+.abonnemet{
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.abonnemet-1{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 200px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.abonnemet-1 > div{
+    width: 60px;
+    padding: 4px 8px;
+    font-size: 30px;
+}
+
+    footer .steam img {
+        width: 240px;
+    }
 
 }
