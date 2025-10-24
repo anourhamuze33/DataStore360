@@ -25,76 +25,13 @@ body {
 }
 
 #container #links {
-    display: flex;
+    display: none;
     gap: 30px;
     padding-right: 10%;
 }
 
-details {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-}
-
-#container #links a {
-    text-decoration: none;
-    color: rgba(195, 191, 231, 1);
-    border: solid 1px;
-    padding: 4px;
-}
-
-#icon i {
-    color: #fff;
-    font-size: 50px;
-    display: none;
-}
-
-details button {
-    font-family: 'Courier New', Courier, monospace;
-    width: 100px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background-color: #98bbfa;
-    display: flex;
-    flex-direction: column;
-}
-
-details>summary {
-    list-style: none;
-}
-
-details>summary::-webkit-details-marker {
-    display: none;
-}
-
-#icon button:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    transform: scale(1.1);
-}
-
-@media screen and (width <=600px) {
-
-    #container {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    #container #links {
-        display: none;
-    }
-
-    #icon i {
-        display: flex;
-    }
 
 
-}
 
 h1,
 h2 {
@@ -136,15 +73,17 @@ h2 {
     border: 2px solid rgb(255, 255, 255);
     background: linear-gradient(135deg, #000000, #1a1a2e, #16213e, #0f3460);
     border-radius: 25px;
-    width: fit-content;
     padding: 7px;
     align-items: center;
     margin: 20px auto;
 }
 
 .valo:hover {
-    transform: scale(1.05);
-
+    transform: scale(1.1);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px aqua;
+    transform: rotateY(360deg);
+    transition: 1s;
 }
 
 .valo p {
@@ -212,7 +151,7 @@ footer #container #social-media {
 }
 
 .dropdown:hover .dropdown-content {
-    opacity: 1;
+    opacity: 100%;
 }
 
 .dropdown-content a {
@@ -232,4 +171,54 @@ footer #container #social-media {
     background-color: transparent;
     border: hidden;
     color: white;
+}
+
+@media screen and (width > 600px) {
+
+    #container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #container #links {
+        display: flex;
+    }
+
+    #icon i {
+        display: flex;
+    }
+    .games {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 120px;
+
+    }
+    
+    .games h2 {
+        width: 100%;
+        position: relative;
+        top: 30px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .sections button{
+        font-size: 30px;
+    }
+    .valo{
+        width: 20%;
+    }
+    footer .steam img {
+        width: 240px;
+    }
+    .sections button{
+        font-size: 35px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
