@@ -104,8 +104,11 @@ h1{
     color: #B3CFFB;
 }
 
-form{
-    margin-top: 15px;
+main >h2{
+    margin-bottom: 20px;
+}
+
+form , .age-mail , .nom-prenom{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,6 +122,9 @@ input , select{
     opacity: 50%;
     border: 1px solid grey;
     border-radius: 5px;
+    color: rgb(6, 5, 5);
+    text-align: center;
+    font-family: "Jolly Lodger", system-ui;
 }
 
 .genre{
@@ -134,7 +140,6 @@ label{
 }
 
 .button-insc{
-        width: 120px;
         margin: 15px 0px;
         font-family: "Jolly Lodger", system-ui;
         color: #7386C4;
@@ -143,6 +148,7 @@ label{
         opacity: 20%;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 5px;
+        box-shadow: 4px 4px  10px 2px rgb(169, 169, 251);
 }
 ::placeholder{
     color: rgb(0, 0, 0);
@@ -167,3 +173,126 @@ h3{
 
 
 
+.option-2{
+    color: white;
+    background-color: rgb(66, 4, 222);
+}
+
+.abonnemet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    gap: 20px;
+    font-family: "Jolly Lodger", system-ui;
+    
+}
+
+
+
+.abonnemet-1{
+    background-color: (#150809, #0904);
+    height: 180px;
+    border: white solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 30px;
+    width: 240px;
+    margin-bottom: 20px;
+
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+li::marker{
+    content:"✓ ";
+    color: #7386C4;
+}
+
+.abonnemet-1 > div{
+    width: 70px;
+    border: 4px  #6A83BA solid;
+    border-radius: 10px;
+    padding: 4px 15px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+
+.abonnemet-1 > h4{
+    font-size: 30px;
+    color: #d0dbff;
+}
+
+.abonnemet-1:hover{
+
+    background-color: (#150809, #0904);
+    height: 200px;
+    width: 250px;
+    box-shadow: 0px 0px  20px 4px rgb(169, 169, 251);
+}
+
+@media only screen and (min-width: 600px){
+   
+h1{
+    width: 400px;
+    font-size: 40px;
+}
+
+.inscription-txt{
+    width: 60%;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+main > h2{
+    font-size: 40px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.nom-prenom{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 160px;
+
+}
+
+.age-mail{
+    display: flex;
+    flex-direction: row;
+        gap: 160px;
+}
+
+input , select{
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+.button-insc{
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 4px 4px  10px 2px rgb(169, 169, 251);
+}
+
+label{
+    font-size: 24px;
+}
+
+
+}
