@@ -18,6 +18,28 @@
 
 </head>
 
+<head>
+        <div id="container">
+             <input type="checkbox" id="check">
+             <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+             </label>
+            <img src="/images/logo.png" id="logo" alt="">
+            <div id="links">
+                <a href="#">Home</a>
+                <a href="#">Catalogue</a>
+                <a href="#">Communauté</a>
+                <a href="#">Events</a>
+                <a href="#">Chronologie</a>
+            </div>
+        </div>
+    </head>
+
+
+
+
+
+
 
 
 <body>
@@ -25,48 +47,36 @@
     
 <main>
   <section id="home">
-<video autoplay  src="/ressources/pinterest-video-25 (online-video-cutter.com).mp4" itemtype="video/mp4"></video>
+<video autoplay loop src="/ressources/back.mp4" itemtype="video/mp4"></video>
 <div class="all">
 <div class="container">
-    <nav class="nav_liste" aria-label="Navigation principale">
-  <ul>
- <li class="btn_nav">sorties/notes</li>
- <li class="btn_nav">classement</li>
- <li class="btn_nav">temoignage</li>
- <li class="btn_nav">newsletter</li>
+    <nav class="nav_liste">
+  <ul class="navigation_liste">
+ <li><a href="#sorties_note" class="btn_nav">sorties/notes</a></li>
+ <li><a href="#classements" class="btn_nav">classement</a></li>
+ <li><a href="#temoignage" class="btn_nav">temoignage</a></li>
+ <li><a href="#newsletter" class="btn_nav">newsletter</a></li>
   </ul>
   </nav>
+
   
-<div>
+<div class="headers">
   <h1 class="header_principal">Entrer dans le game verse</h1>
-  <h3 class="header_principal">Explorez les mondes, vivez l'aventure, rejoignez la communauté.</h3>
+  <h3 class="header_principal2">Explorez les mondes, vivez l'aventure, rejoignez la communauté.</h3>
   <a class="btn_principal" href="#"><span>Découvrir les jeux</span></a>
 </div>
 </div>
-
-
 </section>
+
+
+
 <div class="container_section1">
-<section id="sorties_notes" class="sectio1">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
-<img class="background" src="/ressources/17609737378772.jpg" alt="background">
+<section id="sorties_note" class="sectio1">
+  <h3 class="head_second">Dernières sorties & notes des joueurs</h3>
 <div class="container1_element">
-<h3 class="head_second">Dernières sorties & notes des joueurs</h3>
+
 
 <div class="sorties1">
-
 <div class="sorties_elementes">
   <p class="sorties_title">jeux</p>
   <img src="/ressources/genshin impact black icon.png" alt="genshin impact" class="genshin_icon">
@@ -143,21 +153,23 @@
 
 
 </section>
-<section id="classement" class="section4">
+
+<section id="classements" class="section4">
   <h3 class="head_second">Classement des jeux les plus populaires</h3>
   <article class="classement_elements">
-    <div>
-    <h4 class="head_second_classement">1</h4>
-    <article class="classement_info">
-      <img src="/ressources/✨Genshin impact✨ 10.png" alt="logo" class="classement_logo">
-      <img src="/ressources/genshin_1.png" alt="classement" class="classement_1">
-    </article>
-    </div>
+
     <div>
     <h4 class="head_second_classement">2</h4>
     <article class="classement_info">
       <img src="/ressources/✨Genshin impact✨ 10.png" alt="logo" class="classement_logo">
       <img src="/ressources/genshin_second.png" alt="classement" class="classement_2">
+    </article>
+    </div>
+        <div>
+    <h4 class="head_second_classement">1</h4>
+    <article class="classement_info">
+      <img src="/ressources/✨Genshin impact✨ 10.png" alt="logo" class="classement_logo">
+      <img src="/ressources/genshin_1.png" alt="classement" class="classement_1">
     </article>
     </div>
     <div>
@@ -198,27 +210,58 @@
 
 
 
+   <section id="newsletter" class="section6">
+    <div class="newsletter1">
+    <h3 class="head_second">newsletter</h3>
+     <article class="news_article">
+      <div class="news_contai">
+      <div class="newsletter_elements">
+        <p class="news_texte">
+          Recevez les actus e-sport et nouvelles sorties Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed iscing elit, sed do eiusmod tempor incididunt ut labore.
+        </p>
+      <form action="#" method="post">
+            <div class="news">
+              <label for="email" class="label_email">Entrer your email:</label>
+              <input type="email" id="email" name="email" class="email_input" required>
+            </div>
+      </form>
+      </div>
+
+
+            <div class="inscription_noti">
+            <div>
+              <a href="#" class="inscription">inscription</a>
+            </div>
+            <img src="ressources/Check out notification icon created by Landan….jfif" alt="notification" class="notification">
+             </div>
+      
+
+    </article>
+    </div>
+
+   </section>
+
+
+
 </section>
 
 
 </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+<footer>
+    <div id="containr" class="foot">
+        <div class="steam">
+            <a href="https://store.steampowered.com/">
+                <img width="70" src="/images/steam-logo.png" alt="">
+            </a>
+        </div>
+        <p>&copy 2025 6Stars</p>
+        <div id="social-media">
+            <a href="#"><img src="/ressources/x_icon.webp" alt="" class="icons"></a>
+            <a href="#"><img src="/ressources/insta_icon.webp" alt="" class="icons"></a>
+            <a href="#"><img src="/ressources/facebook-round-color-icon.webp" alt="" class="icons"></a>
+            <a href="#"><img src="/ressources/discord-round-color-icon.webp" alt="" class="icons"></a>
+        </div>
+    </div>
+</footer>
 </html>
